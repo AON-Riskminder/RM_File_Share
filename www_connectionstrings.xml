@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<connectionStrings>
+    <add name="cnDB_DEV"    providerName="system.data.sqlclient" connectionString="server=10.131.30.100;database=RM_RECORD_SHARED;uid=sa;Password=Hajen7150;Pooling=false;Min Pool Size=10;Max Pool Size=200;" />
+    <add name="cnDB_SHARED" providerName="system.data.sqlclient" connectionString="server=10.131.30.110;database=RM_Record_Shared;uid=RemoteSa;password=1525+8+20ff;pooling=false;min pool size=10;max pool size=200;encrypt=false" />
+    <add name="cnDB_DS"     providerName="system.data.sqlclient" connectionString="server=10.131.30.111;database=RM_RECORD_DS;uid=RemoteSa;password=1525+8+20ff;pooling=false;min pool size=10;max pool size=200;encrypt=false" />
+    <add name="cnDB_DSK"    providerName="system.data.sqlclient" connectionString="server=10.131.30.112;database=RM_RECORD_Supergros;uid=RemoteSa;password=1525+8+20ff;pooling=false;min pool size=10;max pool size=200;encrypt=false" />
+    <add name="cnDB_Coop"   providerName="system.data.sqlclient" connectionString="server=10.131.30.114;database=RM_RECORD_Coop;uid=RemoteSa;password=1525+8+20ff;pooling=false;min pool size=10;max pool size=200;encrypt=false" />
+</connectionStrings>
